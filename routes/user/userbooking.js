@@ -6,7 +6,7 @@ const Freelancer = require('../../models/freelancer');
 const router = express.Router();
 var fetchuser = require('../../middleware/fetchuser');
 const path = require('path');
-const hostname = "https://worksaga.herokuapp.com"
+const hostname = "https://worksaga.onrender.com"
 
 router.post('/bookfreelancer:id',fetchuser,async(req,res)=>{
     try {

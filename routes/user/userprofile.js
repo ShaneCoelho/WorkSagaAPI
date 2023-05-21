@@ -11,7 +11,7 @@ const { GridFsStorage } = require('multer-gridfs-storage');
 const Grid = require('gridfs-stream');
 const fs = require('fs')
 let gfs;
-const hostname = "https://worksaga.herokuapp.com"
+const hostname = "https://worksaga.onrender.com"
 //create mongoose connection for multer 
 const conn = mongoose.createConnection(process.env.MONGO_URI);
 
